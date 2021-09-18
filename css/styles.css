@@ -8,7 +8,7 @@ display: inline-block;
     margin-left: 0px;
 	
 	vertical-align: top;
-	widows: 500px;
+	
 
 
 }
@@ -17,27 +17,43 @@ display: inline-block;
 	display: inline-block;
 	margin-left: 200px;
 	vertical-align: top;
+	animation: divsun 4s infinite;
+	position: relative;
+	
+}
+.sun-img:hover {
+transform: scale(3);
 }
 
-.div-cloud2 {
-  display: inline-block;
-  margin-left: 680px;
-  margin-top: 20px;
+@keyframes divsun {
+    0% {left: 0px; transform: rotate(0deg);}
+	25% {left: 0px;transform: rotate(45deg);}
+	50% {left: 0px;transform: rotate(360deg);}
+	70% {left: 0px;transform: rotate(45deg);}
+	100% {left: 0px;transform: rotate(0deg);}
 }
 
 .sun-img {
 	width: 300px;
 	
 }
-
-.cloud1 {
-	width: 200px;
-	
-}
-
 .cloud2 {
 	width: 500px;
 	
+}
+.div-cloud {
+
+    animation: cloud 5s infinite;
+	position: relative;
+
+}
+
+@keyframes cloud {
+    0% {left: 0%;}
+	25% {left: 25%;}
+	50% {left: 50%;}
+	75% {left: 75%;}
+	100% {left: 100%;}
 }
 
 .section2 {
@@ -50,17 +66,25 @@ display: inline-block;
 	
 }
 
+.car1:hover {
+	transform: scale(2);
+}
 .car2 {
 	width: 280px;
+}
+
+.car2:hover {
+	transform: scale(2);
 }
 .div1 {
 
     display: inline-block;
     margin-top: 170px;
     margin-left: 0px;
-    animation: caranimation1;
+    animation: caranimation 5s infinite;
+    position: relative;
+  
    
-
 }
 
 .div2 {
@@ -68,5 +92,26 @@ display: inline-block;
 	display: inline-block;
 	
 	margin-left: 1300px;
+	position: relative;
+	animation: caranimat 5s infinite;
 	
+}
+
+@keyframes caranimation {
+	0% {left: 0%;}
+	25% {left: 25%;}
+	50% {left: 50%;}
+	75% {left: 75%;}
+	100% {left: 100%;}
+
+
+}
+
+@keyframes 
+caranimat {
+	0% {right: 0%;}
+	25% {right: 25%;}
+	50% {right: 50%;}
+	75% {right: 75%;}
+	100% {right: 100%;}
 }
