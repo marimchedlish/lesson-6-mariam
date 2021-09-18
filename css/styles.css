@@ -1,0 +1,72 @@
+.section1 {
+	display: inline-block;
+	height: 500px;
+}
+
+.div-cloud {
+display: inline-block;
+    margin-left: 0px;
+	
+	vertical-align: top;
+	widows: 500px;
+
+
+}
+
+.div-sun {
+	display: inline-block;
+	margin-left: 200px;
+	vertical-align: top;
+}
+
+.div-cloud2 {
+  display: inline-block;
+  margin-left: 680px;
+  margin-top: 20px;
+}
+
+.sun-img {
+	width: 300px;
+	
+}
+
+.cloud1 {
+	width: 200px;
+	
+}
+
+.cloud2 {
+	width: 500px;
+	
+}
+
+.section2 {
+	display: inline-block;
+	
+}
+
+.car1 {
+	width: 300px;
+	
+}
+
+.car2 {
+	width: 280px;
+}
+.div1 {
+
+    display: inline-block;
+    margin-top: 170px;
+    margin-left: 0px;
+    animation: caranimation1;
+   
+
+}
+
+.div2 {
+	
+	display: inline-block;
+	
+	margin-left: 1300px;
+	
+}
